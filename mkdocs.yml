@@ -1,0 +1,106 @@
+site_name: Organización
+
+theme:
+  name: material
+  language: es
+  
+  # Iconos de la interfaz y del logo
+  icon:
+    logo: material/palette-swatch
+    repo: fontawesome/brands/github
+
+  # Características visuales y de navegación
+  features:
+    - navigation.top           # Botón flotante para volver arriba
+    - navigation.instant       # Carga instantánea tipo SPA
+    - search.suggest           # Sugerencias visuales en la búsqueda
+    - search.highlight         # Resaltado en color de las palabras buscadas
+    - content.code.copy        # Botón para copiar bloques de código
+
+  # Configuración de colores y selector Claro / Oscuro
+  palette:
+    # Opción 1: Modo Claro
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Pasar a modo oscuro
+
+    # Opción 2: Modo Oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Pasar a modo claro
+
+markdown_extensions:
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+
+
+
+# =========================================================================
+# Fragmento de navegacion completo para integrar en la clave `nav:` de mkdocs.yml
+# Modulo: Seguridad y Alta Disponibilidad (SAD) - ASIR
+# =========================================================================
+
+nav:
+  - Inicio: index.md
+  - SAD - Seguridad y Alta Disponibilidad:
+      - "UD1: Criptografia, Cifrado y PKI": sad/ud01.md
+      - "UD2: Autenticacion Avanzada y Directorio Seguro": sad/ud02.md
+      - "UD3: Cortafuegos Stateful (NFTables)": sad/ud03.md
+#      - "UD4: VPN - IPsec, OpenVPN, WireGuard": sad/ud04.md
+#      - "UD5: IDS/IPS y WAF": sad/ud05.md
+#      - "UD6: Bastionado de Sistemas y Servicios Web": sad/ud06.md
+#      - "UD7: Auditoria de Seguridad y Hacking Etico": sad/ud07.md
+#      - "UD8: Analisis Forense y SIEM": sad/ud08.md
+#      - "UD9: HA - Balanceo de Carga (HAProxy)": sad/ud09.md
+#      - "UD10: HA - Clusters y Failover (Keepalived/Pacemaker)": sad/ud10.md
+#      - "UD11: Almacenamiento Redundante, Backups y DR": sad/ud11.md
+#      - "UD12: Continuidad de Negocio, MAGERIT y ENS/ISO 27001": sad/ud12.md
+  - Referencia Tecnologica:
+      - "OpenSSL / PKI": tech/openssl-pki.md
+      - "OpenLDAP & Kerberos": tech/ldap-kerberos.md
+      - "NFTables": tech/nftables.md
+      - "WireGuard": tech/wireguard.md
+      - "OpenVPN & IPsec (strongSwan)": tech/openvpn-ipsec.md
+      - "Suricata (IDS/IPS)": tech/suricata.md
+      - "ModSecurity & OWASP CRS (WAF)": tech/modsecurity.md
+      - "Fail2ban": tech/fail2ban.md
+      - "Nmap & OpenVAS": tech/nmap-openvas.md
+      - "Wazuh (SIEM)": tech/wazuh.md
+      - "HAProxy": tech/haproxy.md
+      - "Keepalived": tech/keepalived.md
+      - "Corosync & Pacemaker": tech/corosync-pacemaker.md
+      - "Restic & Bacula": tech/restic-bacula.md
+      - "HashiCorp Vault": tech/vault.md

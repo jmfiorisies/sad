@@ -76,31 +76,33 @@ plugins:
 nav:
   - Inicio: index.md
   - SAD - Seguridad y Alta Disponibilidad:
-      - "UD1: Criptografia, Cifrado y PKI": sad/ud01.md
-      - "UD2: Autenticacion Avanzada y Directorio Seguro": sad/ud02.md
-      - "UD3: Cortafuegos Stateful (NFTables)": sad/ud03.md
-#      - "UD4: VPN - IPsec, OpenVPN, WireGuard": sad/ud04.md
-#      - "UD5: IDS/IPS y WAF": sad/ud05.md
-#      - "UD6: Bastionado de Sistemas y Servicios Web": sad/ud06.md
-#      - "UD7: Auditoria de Seguridad y Hacking Etico": sad/ud07.md
-#      - "UD8: Analisis Forense y SIEM": sad/ud08.md
-#      - "UD9: HA - Balanceo de Carga (HAProxy)": sad/ud09.md
-#      - "UD10: HA - Clusters y Failover (Keepalived/Pacemaker)": sad/ud10.md
-#      - "UD11: Almacenamiento Redundante, Backups y DR": sad/ud11.md
-#      - "UD12: Continuidad de Negocio, MAGERIT y ENS/ISO 27001": sad/ud12.md
-  - Referencia Tecnologica:
-      - "OpenSSL / PKI": tech/openssl-pki.md
-      - "OpenLDAP & Kerberos": tech/ldap-kerberos.md
-      - "NFTables": tech/nftables.md
-      - "WireGuard": tech/wireguard.md
-      - "OpenVPN & IPsec (strongSwan)": tech/openvpn-ipsec.md
-      - "Suricata (IDS/IPS)": tech/suricata.md
-      - "ModSecurity & OWASP CRS (WAF)": tech/modsecurity.md
-      - "Fail2ban": tech/fail2ban.md
-      - "Nmap & OpenVAS": tech/nmap-openvas.md
-      - "Wazuh (SIEM)": tech/wazuh.md
-      - "HAProxy": tech/haproxy.md
-      - "Keepalived": tech/keepalived.md
-      - "Corosync & Pacemaker": tech/corosync-pacemaker.md
-      - "Restic & Bacula": tech/restic-bacula.md
-      - "HashiCorp Vault": tech/vault.md
+      - "UD1: Criptografia, Cifrado y PKI": unidades/ud01.md
+      - "UD2: Autenticacion Avanzada y Directorio Seguro": unidades/ud02.md
+      - "UD3: Cortafuegos Stateful (NFTables)": unidades/ud03.md
+#      - "UD4: VPN - IPsec, OpenVPN, WireGuard": unidades/ud04.md
+#      - "UD5: IDS/IPS y WAF": unidades/ud05.md
+#      - "UD6: Bastionado de Sistemas y Servicios Web": unidades/ud06.md
+#      - "UD7: Auditoria de Seguridad y Hacking Etico": unidades/ud07.md
+#      - "UD8: Analisis Forense y SIEM": unidades/ud08.md
+#      - "UD9: HA - Balanceo de Carga (HAProxy)": unidades/ud09.md
+#      - "UD10: HA - Clusters y Failover (Keepalived/Pacemaker)": unidades/ud10.md
+#      - "UD11: Almacenamiento Redundante, Backups y DR": unidades/ud11.md
+#      - "UD12: Continuidad de Negocio, MAGERIT y ENS/ISO 27001": unidades/ud12.md
+  - Referencia Tecnológica:
+      - "Árbol tecnológico completo": https://jmfiorisies.github.io/tech/
+      - "OpenSSL / PKI": https://jmfiorisies.github.io/tech/openssl-pki/
+      - "OpenLDAP & Kerberos": https://jmfiorisies.github.io/tech/ldap-kerberos/
+      - "NFTables": https://jmfiorisies.github.io/tech/nftables/
+      - "WireGuard": https://jmfiorisies.github.io/tech/wireguard/
+      - "OpenVPN & IPsec (strongSwan)": https://jmfiorisies.github.io/tech/openvpn-ipsec/
+      - "Suricata (IDS/IPS)": https://jmfiorisies.github.io/tech/suricata/
+      - "ModSecurity & OWASP CRS (WAF)": https://jmfiorisies.github.io/tech/modsecurity/
+      - "Fail2ban": https://jmfiorisies.github.io/tech/fail2ban/
+      - "Nmap & OpenVAS": https://jmfiorisies.github.io/tech/nmap-openvas/
+      - "Wazuh (SIEM)": https://jmfiorisies.github.io/tech/wazuh/
+      - "HAProxy": https://jmfiorisies.github.io/tech/haproxy/
+      - "Keepalived": https://jmfiorisies.github.io/tech/keepalived/
+      - "Corosync & Pacemaker": https://jmfiorisies.github.io/tech/corosync-pacemaker/
+      - "Restic & Bacula": https://jmfiorisies.github.io/tech/restic-bacula/
+      - "HashiCorp Vault": https://jmfiorisies.github.io/tech/vault/
+  - "🏠 Portal docente": https://jmfiorisies.github.io/

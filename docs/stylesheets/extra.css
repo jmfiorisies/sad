@@ -1,2 +1,26 @@
-/* Personalización visual del manual SAD */
-.md-header { box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+/* ============================================================
+   Color base de la asignatura (SAD) · común con el portal docente
+   ============================================================ */
+:root {
+  --asig: #4285f4;
+  --stripe: linear-gradient(90deg, #4285f4 0 25%, #ea4335 25% 50%, #fbbc04 50% 75%, #34a853 75% 100%);
+  --md-primary-fg-color:        var(--asig);
+  --md-primary-fg-color--light: color-mix(in srgb, var(--asig) 80%, #fff);
+  --md-primary-fg-color--dark:  color-mix(in srgb, var(--asig) 80%, #000);
+  --md-primary-bg-color:        #ffffff;
+  --md-primary-bg-color--light: color-mix(in srgb, #ffffff 70%, transparent);
+  --md-accent-fg-color:         #1a73e8;
+}
+[data-md-color-scheme="default"] { --md-typeset-a-color: #1a73e8; }
+[data-md-color-scheme="slate"]   { --md-typeset-a-color: #8ab4f8; --md-accent-fg-color: #8ab4f8; }
+
+/* Franja con los colores de las 4 asignaturas bajo la cabecera */
+.md-header { box-shadow: 0 1px 4px rgba(0,0,0,.08); border-bottom: 4px solid transparent; border-image: var(--stripe) 1; }
+
+/* Cabecera de las tablas con el color de la asignatura */
+.md-typeset table:not([class]) th {
+  background-color: var(--asig) !important;
+  color: var(--md-primary-bg-color) !important;
+  font-weight: 700;
+}
+.md-typeset table:not([class]) tr:hover { background-color: color-mix(in srgb, var(--asig) 6%, transparent); }

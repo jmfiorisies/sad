@@ -25,7 +25,7 @@ jobs:
           python-version: "3.12"
 
       - name: Instalar MkDocs Material
-        run: pip install mkdocs-material
+        run: pip install mkdocs-material mkdocs-redirects
 
       - name: Construir el sitio
         run: mkdocs build --strict

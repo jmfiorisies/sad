@@ -1,4 +1,4 @@
-site_name: Organización
+site_name: "SAD · Seguridad y Alta Disponibilidad"
 
 theme:
   name: material
@@ -6,7 +6,7 @@ theme:
   
   # Iconos de la interfaz y del logo
   icon:
-    logo: material/palette-swatch
+    logo: material/shield-lock
     repo: fontawesome/brands/github
 
   # Características visuales y de navegación
@@ -22,8 +22,8 @@ theme:
     # Opción 1: Modo Claro
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: teal
-      accent: cyan
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Pasar a modo oscuro
@@ -31,8 +31,8 @@ theme:
     # Opción 2: Modo Oscuro
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: teal
-      accent: cyan
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Pasar a modo claro
@@ -65,6 +65,35 @@ extra_css:
 
 plugins:
   - search
+  - redirects:
+      redirect_maps:
+        'tech/corosync-pacemaker.md': 'https://jmfiorisies.github.io/tech/corosync-pacemaker/'
+        'tech/fail2ban.md': 'https://jmfiorisies.github.io/tech/fail2ban/'
+        'tech/haproxy.md': 'https://jmfiorisies.github.io/tech/haproxy/'
+        'tech/keepalived.md': 'https://jmfiorisies.github.io/tech/keepalived/'
+        'tech/ldap-kerberos.md': 'https://jmfiorisies.github.io/tech/ldap-kerberos/'
+        'tech/modsecurity.md': 'https://jmfiorisies.github.io/tech/modsecurity/'
+        'tech/nftables.md': 'https://jmfiorisies.github.io/tech/nftables/'
+        'tech/nmap-openvas.md': 'https://jmfiorisies.github.io/tech/nmap-openvas/'
+        'tech/openssl-pki.md': 'https://jmfiorisies.github.io/tech/openssl-pki/'
+        'tech/openvpn-ipsec.md': 'https://jmfiorisies.github.io/tech/openvpn-ipsec/'
+        'tech/restic-bacula.md': 'https://jmfiorisies.github.io/tech/restic-bacula/'
+        'tech/suricata.md': 'https://jmfiorisies.github.io/tech/suricata/'
+        'tech/vault.md': 'https://jmfiorisies.github.io/tech/vault/'
+        'tech/wazuh.md': 'https://jmfiorisies.github.io/tech/wazuh/'
+        'tech/wireguard.md': 'https://jmfiorisies.github.io/tech/wireguard/'
+        'sad/ud01.md': 'unidades/ud01.md'
+        'sad/ud02.md': 'unidades/ud02.md'
+        'sad/ud03.md': 'unidades/ud03.md'
+        'sad/ud04.md': 'unidades/ud04.md'
+        'sad/ud05.md': 'unidades/ud05.md'
+        'sad/ud06.md': 'unidades/ud06.md'
+        'sad/ud07.md': 'unidades/ud07.md'
+        'sad/ud08.md': 'unidades/ud08.md'
+        'sad/ud09.md': 'unidades/ud09.md'
+        'sad/ud10.md': 'unidades/ud10.md'
+        'sad/ud11.md': 'unidades/ud11.md'
+        'sad/ud12.md': 'unidades/ud12.md'
 
 
 

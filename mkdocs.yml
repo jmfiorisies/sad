@@ -140,3 +140,8 @@ nav:
       - "Restic & Bacula": https://jmfiorisies.github.io/tech/restic-bacula/
       - "HashiCorp Vault": https://jmfiorisies.github.io/tech/vault/
   - "🏠 Portal docente": https://jmfiorisies.github.io/
+
+# Las páginas de «Practicar» son HTML ya cifrado (no .md): el menú las enlaza sin que mkdocs las busque
+validation:
+  nav:
+    not_found: info

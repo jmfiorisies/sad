@@ -24,3 +24,14 @@
   font-weight: 700;
 }
 .md-typeset table:not([class]) tr:hover { background-color: color-mix(in srgb, var(--asig) 6%, transparent); }
+
+/* Caja «Presentación de clase» al principio de cada unidad (igual que en DWEC, DIW e IAW) */
+.md-typeset .presentacion {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .6rem 1rem;
+  padding: .8rem 1rem; margin: 1rem 0;
+  border: 1px solid color-mix(in srgb, var(--asig) 60%, transparent); border-radius: .4rem;
+  background: color-mix(in srgb, var(--asig) 10%, transparent);
+}
+.md-typeset .presentacion p { margin: 0; }
+.md-typeset .presentacion .md-button { margin: 0; }
+.md-typeset .presentacion__icono { color: var(--md-accent-fg-color); }

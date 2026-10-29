@@ -109,8 +109,8 @@ nav:
       - "UD2: Autenticacion Avanzada y Directorio Seguro": unidades/ud02.md
       - "UD3: Cortafuegos Stateful (NFTables)": unidades/ud03.md
       - "UD4: VPN (WireGuard, IPsec y OpenVPN)": unidades/ud04.md
-#      - "UD5: IDS/IPS y WAF": unidades/ud05.md
-#      - "UD6: Bastionado de Sistemas y Servicios Web": unidades/ud06.md
+      - "UD5: IDS, IPS y WAF": unidades/ud05.md
+      - "UD6: Bastionado de Sistemas y Servicios Web": unidades/ud06.md
 #      - "UD7: Auditoria de Seguridad y Hacking Etico": unidades/ud07.md
 #      - "UD8: Analisis Forense y SIEM": unidades/ud08.md
 #      - "UD9: HA - Balanceo de Carga (HAProxy)": unidades/ud09.md
@@ -120,8 +120,10 @@ nav:
   - 🏋️ Practicar (con contraseña):
       - Baterías de ejercicios:
           - "UD3 + UD4 · Batería guiada: el vigilante y el pasadizo": unidades/ud03-04-bateria/
+          - "UD5 + UD6 · Batería guiada: IDS, WAF y bastionado": unidades/ud05-06-bateria/
       - Prácticas:
           - "P2 · Bodegas Atlántico": practicas/p2-bodegas/
+          - "P2 · Bodegas Atlántico · Bloques C y D": practicas/p2-bodegas-cd/
   - Referencia Tecnológica:
       - "Árbol tecnológico completo": https://jmfiorisies.github.io/tech/
       - "OpenSSL / PKI": https://jmfiorisies.github.io/tech/openssl-pki/

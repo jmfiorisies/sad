@@ -104,9 +104,10 @@ plugins:
 
 nav:
   - Inicio: index.md
-  - SAD - Seguridad y Alta Disponibilidad:
-      - "UD1: Criptografia, Cifrado y PKI": unidades/ud01.md
-      - "UD2: Autenticacion Avanzada y Directorio Seguro": unidades/ud02.md
+  - Planificación Docente: planificacion.md
+  - "1.ª Evaluación":
+      - "UD1: Criptografía, Cifrado y PKI": unidades/ud01.md
+      - "UD2: Autenticación Avanzada y Directorio Seguro": unidades/ud02.md
       - "UD3: Cortafuegos Stateful (NFTables)": unidades/ud03.md
       - "UD4: VPN (WireGuard, IPsec y OpenVPN)": unidades/ud04.md
       - "UD5: IDS, IPS y WAF": unidades/ud05.md
